@@ -1,0 +1,115 @@
+body {
+    background-image: url(../img/Zig-Zag.svg);
+    font-family: verdana;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+.layout {
+
+}
+article {
+    border-width: 5px 0;
+    border-style: solid ;
+    border-color: #a38073;
+    
+}
+.layout header {
+    background-color: #2a9d8f;
+    /* height:max-content; */
+    /* padding: 0 0 2rem 0; */
+    height: 5rem;
+}
+
+.layout aside {
+    /* position: absolute; */
+    background-color: #e9c46a;
+    float: left;
+    /* margin: 0 0 0 0; */
+    /* padding: 0 7rem 20rem 0; */
+    width: 200px;
+    height: 20rem;
+    /* vertical-align: text-top;
+    text-align: top;
+    justify-content: top; */
+    /* display: block; */
+}
+aside h3 {
+    margin: 0;
+    /* padding: 0; */
+}
+.layout main {
+    background-color: #f4a261;
+    margin: 0;
+    /* padding: 0 0 20rem 0; */
+    height: 20rem;   
+    /* display: block; */
+}
+main h3{
+    margin: 0;
+    /* padding: 0; */
+}
+.layout footer {
+    height: 5rem;
+    background-color: #e76f51;
+    /* padding: 0 0 3rem 0; */
+}
+footer h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.layout2 header {
+    background-color: #2a9d8f;
+    /* height:max-content; */
+    /* padding: 0 0 2rem 0; */
+    height: 5rem;
+}
+
+.layout2 aside {
+    /* position: absolute; */
+    background-color: #e9c46a;
+    /* float: left; */
+    /* margin: 0 0 0 0; */
+    /* padding: 0 7rem 20rem 0; */
+    width: 200px; /* 10rem */
+    height: 20rem;
+    
+    /* vertical-align: text-top;
+    text-align: top;
+    justify-content: top; */
+    /* display: block; */
+    /* padding:0; */
+    /* margin: 0; */
+}
+.layout2 aside, .layout2 main {
+    display: inline-block;
+}
+.layout2 main {
+    background-color: #f4a261;
+    
+    /* padding: 0 0 20rem 0; */
+    width: 800px;
+    /* 83.5% */
+    
+    /* width: fit-content; */
+    /* padding: 0;
+    margin: 0; */
+    height: 20rem;   
+    /* display: block; */
+}
+.layout2 footer {
+    height: 5rem;
+    background-color: #e76f51;
+    /* padding: 0 0 3rem 0; */
+}
+footer h3 {
+    margin: 0;
+}

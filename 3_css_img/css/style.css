@@ -1,0 +1,41 @@
+body {
+    background-image: url("../img/flower.png");
+    color: white;
+}
+h2{
+    background-color: purple;
+    
+}
+.one{
+    background-image: url("../img/pear.png");
+    background-repeat: no-repeat;
+    /* background-position: 50% 0; */
+    background-position: center;
+}
+.two {
+    background-image: url("../img/pear.png");
+    background-repeat: repeat-x;
+    background-position: 0 50%;
+}
+.three {
+    background-image: url("../img/pear.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: contain;
+}
+.four {
+    background-image: url("../img/pear.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.box{
+    background-image: url("../img/pear.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: white;
+}
+h3{
+    background-color: black;
+}

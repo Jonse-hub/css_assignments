@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS opgave 2</title>
+    <style>
+      body{
+        background-color: #3d9b7d;
+        color: white;
+      }
+      .green50 {
+        background-color: rgba(0, 128, 0, 0.500);
+      }
+      .gråhsl{
+        background-color: hsl(0, 0%, 50%);
+      }
+      .mørkeblårgb {
+        background-color: rgb(0, 0, 139);
+      }
+      ul {
+        color: black;
+      }
+      div li:nth-child(even) {
+        background-color: #bbb;
+      }
+      div li:nth-child(odd) {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Body har baggrundsfarven: #3d9b7d</p>
+    <p>Alt tekst på siden har farven hvid - angivet med ordet "white"</p>
+    <p class="green50">Jeg har en grøn baggrund med 50% synlighed</p>
+    <p class="gråhsl">Jeg har en grå baggrund angivet med hsl()</p>
+    <p class="mørkeblårgb">Jeg har en mørkeblå baggrund angivet med rgb()</p>
+    <p>intern style</p>
+    <div>
+      <ul>
+        <li>Body har baggrundsfarven: #3d9b7d</li>
+        <li><p>Alt tekst på siden har farven hvid - angivet med ordet "white"</p></li>
+        <li><p>Jeg har en grøn baggrund med 50% synlighed</p></li>
+        <li><p>Jeg har en grå baggrund angivet med hsl()</p></li>
+        <li><p>Jeg har en mørkeblå baggrund angivet med rgb()</p></li>
+      </ul>
+  </div>
+  </body>
+</html>

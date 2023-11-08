@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS opg 1</title>
+    <style>
+      body {
+        font-weight: bold;
+      }
+      #main {
+        color: rgb(255, 166, 0);
+        font-size: 30px;
+      }
+      .question {
+        color: lightseagreen;
+        font-size: 18px;
+      }
+      .answer {
+        color: lightslategray;
+        font-size: 18px;
+      }
+      table{
+        width: 600px;
+      }
+      table, tr, td, th {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <b> -->
+    <p id="main">Om CSS</p>
+    <p class="question">Hvad er en selector med egne ord?</p>
+    <p class="answer">css hvad man vælger skal ændres</p>
+    <p class="question">Hvad er en property med egne ord?</p>
+    <p class="answer">hvordan det ændres</p>
+    <p class="question">Hvad er en value med egne ord?</p>
+    <p class="answer">størrelsen eller farven det skal ændres til</p>
+    <!-- width="600px" -->
+    <table>
+      <caption>
+        Oversigt over simple selectors
+      </caption>
+      <tr>
+        <th>Selector:</th>
+        <th>Eksempel:</th>
+        <th>Forklaring:</th>
+      </tr>
+      <tr>
+        <td>Element</td>
+        <td>p</td>
+        <td>Vælger alle elementer af denne type, f.eks. alle paragraphs</td>
+      </tr>
+      <tr>
+        <td>Id</td>
+        <td>#someId</td>
+        <td>section af siden, man kan sætte link til </td>
+      </tr>
+      <tr>
+        <td>Class</td>
+        <td>.someClass</td>
+        <td>selecter noget man kan ændre, der er højstprioteret</td>
+      </tr>
+      <tr>
+        <td>Universal</td>
+        <td>*</td>
+        <td>vælger alt</td>
+      </tr>
+      <tr>
+        <td>Grouping</td>
+        <td>h1, h2</td>
+        <td>flere selectors der kan ændres på samme tid</td>
+      </tr>
+    </table>
+  <!-- </b> -->
+  </body>
+</html>

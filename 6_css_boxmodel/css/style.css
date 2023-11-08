@@ -1,0 +1,39 @@
+th {
+    text-align: left;
+}
+.borderY {
+    border-width: 5px 0;
+    border-style: solid ;
+    border-color: blueviolet;
+    
+}
+.borderX {
+    border-width: 0 5px;
+    border-style: solid ;
+    border-color: blueviolet;
+    
+}
+.padding {
+    padding: 10px 20px;
+}
+.margin {
+    margin: 20px 30px 10px 5px;
+}
+.img {
+    padding: 10px;
+    border: 5px solid blueviolet;
+    margin: 20px 40px 50px;
+}
+.galleri {
+    border: 5px solid blueviolet;
+    width: 1000px;
+    padding: 10px;
+    font-size: 0; /* img placeres på text-linje*/
+    
+}
+.galleri img{
+    width: 29.3333%;
+    margin: 1%;
+    padding: 1%;
+    /* = 33.3333% , flexbox er meget nemmere*/
+}
